@@ -15,7 +15,7 @@ class Solution:
                     m[(s1, s2)] = True
                     return True
             m[(s1, s2)] = False
-            return Fals
+            return False
         return func(s1, s2)
 
 
